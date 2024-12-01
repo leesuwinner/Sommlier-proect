@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Marck+Script&family=Noto+Sans+KR:wght@700&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&family=Marck+Script&family=Noto+Sans+KR:wght@700&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style_price.css">
+    <title>RECOMMEND</title>
+    <script src="https://kit.fontawesome.com/68eb692e4d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="intro_bg">
+            <div class="header" id="link_header">
+                <div class="header">
+                    <a href="index.html">
+                        <div class="search_area">
+                            <h1>Sommelier's</h1>
+                        </div>
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li><a href="history.html">HISTORY/TIPS</a></li>
+                    <li><a href="combination.html">FOOD/WINE</a></li>
+                    <li><a href="intro.html">INTRO</a></li>
+                    <li><a href="World_wine.html">RANK/RECOMMEND</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--intro end-->
+    </div>
+    <div class="price_container">
+        <br>
+        <h1><a href="World_wine.html" class="world_wine">RANK</a> <a href="price.html" class="price_1">RECOMMEND</a></h1>
+        <div class="contents1">가격대 별 와인 추천</div>
+        <div class="price-wrap">
+            <div class="price" onclick="show(1)" style="cursor: pointer;" id="p1">1만원대</div>
+            <div class="price" onclick="show(3)" style="cursor: pointer;" id="p3">3만원대</div>
+            <div class="price" onclick="show(5)" style="cursor: pointer;" id="p5">5만원대</div>
+            <div class="price" onclick="show(7)" style="cursor: pointer;" id="p10">10만원대</div>
+        </div>
+
+        <div class="wine-container" id="price1">
+            <h2> <b> <i> 1만원대 </b></i></h2>
+            <h2> <b> <i> G7 </b></i></h2>
+            <img src="image\price1.png" width="300px" height="400px"> <br>
+            <div>종류 : 레드와인</div>
+            <div>생산지 : 칠레(Chile), Maule Valley</div>
+            <div>품종 : Cabernet Sauvignon 100%</div>
+            <div>평점 : 4.3</div>
+            <div>당도 : 낮은 당도</div>
+        </div>
+        <div class="wine-container" id="price3">
+            <h2> <b> <i> 3만원대 </b></i></h2>
+            <h2> <b> <i> 칸티, 모스카토 다스티 </b></i></h2>
+            <img src="image\price3.png" width="300px" height="400px"> <br>
+            <div>종류 : 화이트와인</div>
+            <div>생산지 : 이탈리아(Italy), Piemonte</div>
+            <div>품종 : Moscato 100%</div>
+            <div>평점 : 4.0</div>
+            <div>당도 : 조금 높은 당도</div>
+        </div>
+        <div class="wine-container" id="price5">
+            <h2> <b> <i> 5만원대 </b></i></h2>
+            <h2> <b> <i> 빌라 엠 </b></i></h2>
+            <img src="image\price5.png" width="300px" height="400px"> <br>
+            <div>종류 : 화이트와인</div>
+            <div>생산지 : 이탈리아(Italy), Piemonte</div>
+            <div>품종 : Moscato 100%</div>
+            <div>평점 : 4.7</div>
+            <div>당도 : 조금 높은 당도</div>
+        </div>
+        <div class="wine-container" id="price10">
+            <h2> <b> <i> 10만원대 </b></i></h2>
+            <h2> <b> <i> 몬테스 알파 카베르네 소비뇽 2020
+                </b></i></h2>
+            <img src="image\price10.png" width="300px" height="400px"> <br>
+            <div>종류 : 레드와인</div>
+            <div>생산지 : 칠레(Chile), Rapel Valley</div>
+            <div>품종 : Cabernet Sauvignon 90%, Merlot 10%</div>
+            <div>평점 : 5.0</div>
+            <div>당도 : 낮은 당도</div>
+        </div>
+
+
+
+        <div id="test">
+        </div>
+        <div class="top">
+            <a href="#top">
+                <i class="fa-solid fa-arrow-up fa-2xl"></i>
+                <br>
+                <small>TOP</small>
+            </a>
+        <br><br>
+        <footer>
+            <div>
+                Sommelier's
+            </div>
+            <div class="footer_a">
+                Team. 소믈리에즈<br>
+                Addr. 충청남도 아산시 배방읍 호서로79번길 20 호서대학교 제1공학관 4층 426호 <br>
+                Fax/Tel. 041 - 123 - 0000<br>
+                Made Team Sommelier's
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    function show(num) {
+        var price = document.getElementsByClassName("price");
+        for (var i = 0; i < 4; i++) {
+            price[i].style.color = "gray";
+        }
+        var wine = document.getElementsByClassName("wine-container");
+        for (var i = 0; i < 4; i++) {
+            wine[i].style.display = "none";
+        }
+
+        if (num == 1) {
+            document.getElementById("p1").style.color = "black";
+            document.getElementById("price1").style.display = "block";
+        } else if (num == 3) {
+            document.getElementById("p3").style.color = "black";
+            document.getElementById("price3").style.display = "block";
+        } else if (num == 5) {
+            document.getElementById("p5").style.color = "black";
+            document.getElementById("price5").style.display = "block";
+        } else {
+            document.getElementById("p10").style.color = "black";
+            document.getElementById("price10").style.display = "block";
+        }
+    }
+
+</script>
+
+</html>

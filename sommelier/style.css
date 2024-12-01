@@ -1,0 +1,137 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;/*목록에 점 없애기*/
+    text-decoration: none;/*색깔 밑줄 없애기*/
+    border-collapse: collapse; /*테이블 선 붙혀주기*/
+    margin:0px;
+    padding: 0px;
+    /*color: black;*/
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents2{
+    font-size: 24px;
+}
+
+.intro_bg{
+    background-image: url(image/sommelier.jpg);
+    width:100%;
+    height: 800px;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    background: auto;
+    height: 86px;
+}
+
+.search_area>h1{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*
+.search_area{
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,5);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.search_area>form>input{
+    border: none;
+    width: 250px;
+    height: 40px;
+    background: rgba(0,0,0,0);
+    color: #fff;
+    padding-left: 10px;
+}
+
+.search_area>form>span{
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+*/
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+    background: auto;
+    color: #fff;
+}
+
+.nav>li{
+    margin-left: 84px;
+}
+
+.nav>li>a{
+    color: white;
+}
+
+.amount{
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);/*x, y, spread*/
+    margin: auto;
+}
+
+.amount>li{
+    flex: 1;
+    height: 132px;
+}
+
+.amount>li>div{
+    text-align: center;
+    margin-top: 37px;
+    height: 57px;
+}
+
+.amount>li:not(:last-child)>div{
+    border-right: 1px solid #E1E1E1;
+}
+
+.intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto; /*상 하 좌 우*/
+    background: none;
+    text-align: right;
+    position: absolute;
+    bottom: 50%;
+}
+
+.intro_text>h1,
+.intro_text>h4{
+    color: #fff;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+    padding-right: 200px;
+}
+
+.amount>li>div>a{
+    text-decoration: none;
+    color: inherit;
+}
